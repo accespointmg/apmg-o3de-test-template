@@ -1,0 +1,148 @@
+{
+    "template_name": "test-template",
+    "origin": "The primary repo for test-template goes here: i.e. http://www.mydomain.com",
+    "license": "What license test-template uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "display_name": "test-template",
+    "summary": "A short description of test-template.",
+    "canonical_tags": [],
+    "user_tags": [
+        "test-template"
+    ],
+    "icon_path": "preview.png",
+    "restricted_name": "test-template",
+    "copyFiles": [
+        {
+            "file": "CMakeLists.txt",
+            "isTemplated": false
+        },
+        {
+            "file": "Code/CMakeLists.txt",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Include/${Name}/${Name}NotificationBus.h",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Include/${Name}/${Name}RequestBus.h",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Source/${Name}Module.cpp",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Source/${Name}SystemComponent.cpp",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Source/${Name}SystemComponent.h",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Source/Platform/Android/platform_android.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Code/Source/Platform/Android/platform_android_files.cmake",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Source/Platform/AppleTV/platform_appletv.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Code/Source/Platform/Common/Unimplemented/${Name}SystemComponent_Unimplemented.cpp",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Source/Platform/Linux/platform_linux.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Code/Source/Platform/Linux/platform_linux_files.cmake",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Source/Platform/Mac/platform_mac.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Code/Source/Platform/Mac/platform_mac_files.cmake",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Source/Platform/Windows/platform_windows.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Code/Source/Platform/Windows/platform_windows_files.cmake",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/Source/Platform/iOS/platform_ios.cmake",
+            "isTemplated": false
+        },
+        {
+            "file": "Code/Source/Platform/iOS/platform_ios_files.cmake",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/achievements_files.cmake",
+            "isTemplated": true
+        },
+        {
+            "file": "Code/achievements_shared_files.cmake",
+            "isTemplated": true
+        },
+        {
+            "file": "gem.json",
+            "isTemplated": true
+        },
+        {
+            "file": "preview.png",
+            "isTemplated": false
+        }
+    ],
+    "createDirectories": [
+        {
+            "dir": "Code"
+        },
+        {
+            "dir": "Code/Include"
+        },
+        {
+            "dir": "Code/Include/${Name}"
+        },
+        {
+            "dir": "Code/Source"
+        },
+        {
+            "dir": "Code/Source/Platform"
+        },
+        {
+            "dir": "Code/Source/Platform/Android"
+        },
+        {
+            "dir": "Code/Source/Platform/AppleTV"
+        },
+        {
+            "dir": "Code/Source/Platform/Common"
+        },
+        {
+            "dir": "Code/Source/Platform/Common/Unimplemented"
+        },
+        {
+            "dir": "Code/Source/Platform/Linux"
+        },
+        {
+            "dir": "Code/Source/Platform/Mac"
+        },
+        {
+            "dir": "Code/Source/Platform/Windows"
+        },
+        {
+            "dir": "Code/Source/Platform/iOS"
+        }
+    ]
+}
